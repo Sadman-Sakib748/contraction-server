@@ -7,6 +7,7 @@ export const handleDuplicateError = (error: any) => {
     const fieldName = match[1] || match[3];
     return `${fieldName} already exists`;
   }
+  
 
   return "Duplicate key error occurred";
 };
